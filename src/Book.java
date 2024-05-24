@@ -23,13 +23,13 @@ public class Book {
         this.title = title;
     }
     public String getTitle() {
-        return title;
+        return this.title;
     }
     public void setPages(int pages) {
         this.pages = pages;
     }
         public int getPages() {
-        return pages;
+        return this.pages;
     }
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
