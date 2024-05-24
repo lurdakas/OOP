@@ -35,10 +35,15 @@ public class Main {
         book2.fullname();
         book3.fullname();
 
-        book4.fullname();
-        book5.fullname();
-        book6.fullname();
+        ArrayList<Book> knygos = new ArrayList<>();
+        knygos.add(book4);
+        knygos.add(book5);
+        knygos.add(book6);
 
+
+        for (Book knyga : knygos) {
+            knyga.fullname();
+        }
 
 
 
