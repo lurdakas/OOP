@@ -38,7 +38,7 @@ public class Book {
         return this.releaseYear;
     }
     public void fullname() {
-        System.out.println("Book Ttile: " + this.title + " Pages: " + this.pages + " Realed in: " + this.releaseYear);
+        System.out.println("Book Ttile: " + "[" + this.title + "]" + " Pages: " + "[" + this.pages + "]" + " Released in: " + "[" + this.releaseYear + "]");
     }
 
 
